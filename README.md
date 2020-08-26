@@ -22,7 +22,7 @@ Even though our Marketplace supports all Operating Systems, this guide focuses o
 
 - once taken, export the snapshot to your Object Storage.
 
-#### Recommendations
+### Recommendations
 
 - Before taking the final snapshot, run the [cleanup.sh](./scripts/cleanup.sh) script.
 
