@@ -36,7 +36,7 @@ Even though our Marketplace supports all Operating Systems, this guide focuses o
 
 - you should customize the cleanup script, to remove any files, and the script itself.
 
-- Unneccessary tools for running the appication, should be removed to keep things lightweight.
+- Unneccessary installation tools, that are not necessary to run the appication (git, cURL), should be removed to keep things lightweight.
 
 ### Publish to the marketplace
 
