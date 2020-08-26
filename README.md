@@ -20,7 +20,7 @@ Even though our Marketplace supports all Operating Systems, this guide focuses o
 
 ### Take a Snapshot
 
-- once taken, export the snapshot to your Object Storage.
+- Once taken, export the snapshot to your Object Storage.
 
 ### Recommendations
 
@@ -34,7 +34,7 @@ Even though our Marketplace supports all Operating Systems, this guide focuses o
 
 - Keep any scripts and custom files that should be removed later on together, for example in `/opt/<application_name>`. This makes cleanup easier before running [cleanup.sh](./scripts/cleanup.sh).
 
-- you should customize the cleanup script, to remove any files, and the script itself.
+- You should customize the cleanup script, to remove any files, and the script itself.
 
 - Unneccessary installation tools, that are not necessary to run the appication (git, cURL), should be removed to keep things lightweight.
 
