@@ -12,7 +12,6 @@ rm -f /root/.ssh/authorized_keys /etc/ssh/*key*
 
 cat /dev/null > /var/log/lastlog; cat /dev/null > /var/log/wtmp; cat /dev/null > /var/log/auth.log
 
-# prompt to update hostname
-# prompt to regenerate the machine ID
-rm -rf <path/to/this/script>
-shutdown
+# prompt to update hostname if required
+# rm -rf <path/to/this/script>
+shutdown -h now

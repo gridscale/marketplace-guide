@@ -1,0 +1,15 @@
+[Unit]
+Description=Firstboot
+After=getty@tty1.service
+After=network-online.target
+After=network.target
+Requires=network-online.target
+[Service]
+User=root
+Group=root
+Type=oneshot
+ExecStart=/firstboot.sh
+TimeoutSec=20
+RemainAfterExit=no
+[Install]
+WantedBy=multi-user.target

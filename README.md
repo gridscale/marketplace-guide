@@ -22,6 +22,10 @@ Even though our Marketplace supports all Operating Systems, this guide focuses o
 
 - Once taken, export the snapshot to your Object Storage.
 
+### Requirements
+
+- Take advantage of our [firstboot script](./scripts/firstboot.sh) service, this a secure way to generate the root password upon boot, as well as communicate it to the enduser. To use this script, pwgen will need to be installed. To activate the script, make sure [firstboot script](./scripts/firstboot.sh) exists and lives in the root directory, and add the [firstboot.service](./scripts/firstboot.service) to the `/etc/systemd/system/` directory. Aftwards, active the service with `systemctl enable firstboot.service`.
+
 ### Recommendations
 
 - Before taking the final snapshot, run the [cleanup.sh](./scripts/cleanup.sh) script.
