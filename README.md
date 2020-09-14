@@ -1,8 +1,8 @@
-# marketplace Application how-to
+# Marketplace Application How-To
 
 Even though our Marketplace supports all Operating Systems, this guide focuses on Linux based operating systems. If you want to maintain the application through regular releases we recommend programatically publishing your app with provisioning tools like Ansible, or alternatively our [Terraform integration](github.com/gridscale/terraform-provider-gridscale). We are working on a Packer integration, which will further simplify this process.
 
-## The publish process:
+## The Publish Process:
 
 ### Create Server + Storage
 
@@ -23,6 +23,8 @@ Even though our Marketplace supports all Operating Systems, this guide focuses o
 - Once taken, export the snapshot to your Object Storage.
 
 ### Requirements
+
+- Send an email to product@gridscale.io - requesting to become a marketplace application publisher. Include as much information as you can, such as what application you would like to publish and some information about who you are. Make sure to include the email address of your gridscale.io account - so we know which contract to activate.
 
 - Take advantage of our [firstboot script](./scripts/firstboot.sh) service, this a secure way to generate the root password upon boot, as well as communicate it to the enduser. To use this script, pwgen will need to be installed. To activate the script, make sure [firstboot script](./scripts/firstboot.sh) exists and lives in the root directory, and add the [firstboot.service](./scripts/firstboot.service) to the `/etc/systemd/system/` directory. Aftwards, active the service with `systemctl enable firstboot.service`.
 
