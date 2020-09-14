@@ -29,3 +29,4 @@ systemctl disable firstboot
 rm /etc/systemd/system/firstboot.service
 systemctl daemon-reload
 rm /firstboot.sh
+rm /cleanup.sh
