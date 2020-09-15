@@ -22,13 +22,13 @@ Even though our Marketplace supports all Operating Systems, this guide focuses o
 
 - Once taken, export the snapshot to your Object Storage.
 
-### Requirements
+## Requirements
 
 - Send an email to product@gridscale.io - requesting to become a marketplace application publisher. Include as much information as you can, such as what application you would like to publish and some information about who you are. Make sure to include the email address of your gridscale.io account - so we know which contract to activate.
 
 - Take advantage of our [firstboot script](./scripts/firstboot.sh) service, this a secure way to generate the root password upon boot, as well as communicate it to the enduser. To use this script, pwgen will need to be installed. To activate the script, make sure [firstboot script](./scripts/firstboot.sh) exists and lives in the root directory, and add the [firstboot.service](./scripts/firstboot.service) to the `/etc/systemd/system/` directory. Aftwards, active the service with `systemctl enable firstboot.service`.
 
-### Recommendations
+## Recommendations
 
 - Before taking the final snapshot, run the [cleanup.sh](./scripts/cleanup.sh) script.
 
@@ -44,10 +44,10 @@ Even though our Marketplace supports all Operating Systems, this guide focuses o
 
 - Unneccessary installation tools, that are not necessary to run the appication (git, cURL), should be removed to keep things lightweight.
 
-### Publish to the marketplace
+## Publish to the marketplace
 
 Once published - we will review the application and let you know once it has been published.
 
-### Updating / Deprecating the Application
+## Updating / Deprecating the Application
 
 Once accepted, the application can no longer be edited for security reasons. To update the application you will simply need to make the changes to your storage, create another snapshot and export it to S3, from there you can publish the new application version to the marketplace. *As the application creator, you are welcome to remove the app at anytime.*
