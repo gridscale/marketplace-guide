@@ -7,7 +7,7 @@ Even though our Marketplace supports all Operating Systems, this guide focuses o
 ### Create Server + Storage
 
 - Connect the server to the public network, with an IP address.
-- The configuration of the server can be lower than what the application needs, the required core and RAM will be set later when publishing the app.
+- The configuration of the server can be lower than what the application needs, the required cores and RAM will be set later when publishing the app.
 
 ### Install the application
 
@@ -18,7 +18,7 @@ Even though our Marketplace supports all Operating Systems, this guide focuses o
 
 - Run the [cleanup.sh](./scripts/cleanup.sh) script to do a soft cleanup of the Storage.
 
-### Take a Snapshot
+### Take a Snapshot & Export to S3
 
 - Once taken, export the snapshot to your Object Storage.
 
