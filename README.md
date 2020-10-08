@@ -18,7 +18,7 @@ Even though our Marketplace supports all Operating Systems, this guide focuses o
 
 - Run the [cleanup.sh](./scripts/cleanup.sh) script to do a soft cleanup of the Storage.
 
-### Take a Snapshot & Export to S3
+### Take a Snapshot
 
 - Once taken, export the snapshot to your Object Storage.
 
