@@ -1,6 +1,6 @@
 # Marketplace Application How-To
 
-Even though our Marketplace supports all Operating Systems, this guide focuses on Linux based operating systems. If you want to maintain the application through regular releases we recommend programatically publishing your app with provisioning tools like Ansible, or alternatively our [Terraform integration](github.com/gridscale/terraform-provider-gridscale). We are working on a Packer integration, which will further simplify this process.
+Even though our Marketplace supports all Operating Systems, this guide focuses on Linux based operating systems. If you want to maintain the application through regular releases we recommend programatically publishing your app with provisioning tools like Ansible, or alternatively our [Terraform integration](https://www.github.com/gridscale/terraform-provider-gridscale). We are working on a Packer integration, which will further simplify this process.
 
 ## The Publish Process:
 
