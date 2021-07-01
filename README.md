@@ -1,5 +1,5 @@
-# This repository has been archived, for up to date information
-- for up to date information please visit the [product docs](https://my.gridscale.io/docs/marketplace/introduction/)
+# This repository has been archived
+- for up to date information please visit the [product docs](https://my.gridscale.io/docs/marketplace/introduction/).
 
 # Marketplace Application How-To
 
