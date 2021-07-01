@@ -1,3 +1,6 @@
+# This repository has been archived, for up to date information
+- for up to date information please visit the [product docs](https://my.gridscale.io/docs/marketplace/introduction/)
+
 # Marketplace Application How-To
 
 Even though our Marketplace supports all Operating Systems, this guide focuses on Linux based operating systems. If you want to maintain the application through regular releases we recommend programatically publishing your app with provisioning tools like Ansible, or alternatively our [Terraform integration](https://www.github.com/gridscale/terraform-provider-gridscale). We are working on a Packer integration, which will further simplify this process.
